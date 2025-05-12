@@ -1,0 +1,1853 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="4" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value="Bot google sheets"></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_addPagination"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_addSearchBox"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_author"></string>
+  <unicode value="Francisco Abarca"></unicode>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_description"></string>
+  <unicode value="Bot google sheets"></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="HTML5"></unicode>
+  <string role="key" value="_exportElp"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_extraHeadContent"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_fieldValidationInfo"></string>
+  <dictionary>
+   <unicode role="key" value="all"></unicode>
+   <dictionary>
+    <unicode role="key" value="mandatory_fields"></unicode>
+    <list>
+     <unicode value="pp_title"></unicode>
+     <unicode value="pp_lang"></unicode>
+     <unicode value="pp_description"></unicode>
+     <unicode value="pp_author"></unicode>
+     <unicode value="pp_newlicense"></unicode>
+    </list>
+   </dictionary>
+   <unicode role="key" value="procomun"></unicode>
+   <dictionary>
+    <unicode role="key" value="mandatory_fields"></unicode>
+    <list>
+     <unicode value="pp_learningResourceType"></unicode>
+    </list>
+    <unicode role="key" value="values_from_list"></unicode>
+    <dictionary>
+     <unicode role="key" value="pp_learningResourceType"></unicode>
+     <list>
+      <unicode value="master class"></unicode>
+      <unicode value="closed exercise or problem"></unicode>
+      <unicode value="real project"></unicode>
+      <unicode value="didactic game"></unicode>
+      <unicode value="webquest"></unicode>
+      <unicode value="open problem"></unicode>
+      <unicode value="simulation"></unicode>
+      <unicode value="questionnaire"></unicode>
+      <unicode value="conceptual map"></unicode>
+     </list>
+    </dictionary>
+   </dictionary>
+  </dictionary>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_isTemplate"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Tema"></unicode>
+   <unicode value="Sección"></unicode>
+   <unicode value="Unidad"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="cansat"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="4"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="5"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="3">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="Programación Google Sheets"></unicode>
+     <string role="key" value="idevices"></string>
+     <list>
+      <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Bot Telegram"></unicode>
+        <string role="key" value="_attributes"></string>
+        <list>
+         <tuple>
+          <string value="title"></string>
+          <list>
+           <string value="Title"></string>
+           <int value="0"></int>
+           <int value="0"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="category"></string>
+          <list>
+           <string value="Category"></string>
+           <int value="0"></int>
+           <int value="1"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="css-class"></string>
+          <list>
+           <string value="CSS class"></string>
+           <int value="0"></int>
+           <int value="2"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="icon"></string>
+          <list>
+           <string value="Icon"></string>
+           <int value="0"></int>
+           <int value="3"></int>
+          </list>
+         </tuple>
+        </list>
+        <string role="key" value="_author"></string>
+        <string value=""></string>
+        <string role="key" value="_iDeviceDir"></string>
+        <string value="text"></string>
+        <string role="key" value="_purpose"></string>
+        <string value=""></string>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="_typeName"></string>
+        <unicode value="Text"></unicode>
+        <string role="key" value="_valid"></string>
+        <bool value="1"></bool>
+        <string role="key" value="class_"></string>
+        <unicode value="text"></unicode>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="1"></int>
+        <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+        <int value="1"></int>
+        <string role="key" value="fields"></string>
+        <list>
+         <instance class="exe.engine.field.TextAreaField" reference="2">
+          <dictionary>
+           <string role="key" value="_id"></string>
+           <unicode value="120_2"></unicode>
+           <string role="key" value="_idevice"></string>
+           <reference key="1"></reference>
+           <string role="key" value="_instruc"></string>
+           <string value=""></string>
+           <string role="key" value="_name"></string>
+           <string value=""></string>
+           <string role="key" value="anchor_names"></string>
+           <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
+           <string role="key" value="content_w_resourcePaths"></string>
+           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Apartado para controlar una hoja de cálculo con un bot de telegram&lt;/p&gt;&lt;/div&gt;"></unicode>
+           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+           <int value="4"></int>
+           <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="htmlTag"></string>
+           <string value="div"></string>
+           <string role="key" value="images"></string>
+           <instance class="exe.engine.galleryidevice.GalleryImages">
+            <dictionary>
+             <string role="key" value=".listitems"></string>
+             <list></list>
+             <string role="key" value="idevice"></string>
+             <reference key="2"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="intlinks_to_anchors"></string>
+           <dictionary></dictionary>
+           <string role="key" value="nextImageId"></string>
+           <int value="0"></int>
+           <string role="key" value="parentNode"></string>
+           <reference key="3"></reference>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="icon"></string>
+        <unicode value=""></unicode>
+        <string role="key" value="id"></string>
+        <unicode value="0"></unicode>
+        <string role="key" value="ideviceCategory"></string>
+        <unicode value="Text and Tasks"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="nextFieldId"></string>
+        <int value="3"></int>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parentNode"></string>
+        <reference key="3"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list></list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="4"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="exportType"></string>
+     <string value="website"></string>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:Programaci%C3%B3n%20Google%20Sheets"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="7">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Bot telegram google sheets"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="5">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Telegram sheets"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_typeName"></string>
+           <unicode value="Text"></unicode>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="6">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="122_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="5"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var token = 'tu token';&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var telegramUrl = 'https://api.telegram.org/bot' + token;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var spd = SpreadsheetApp.getActiveSpreadsheet();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var sheet = spd.getSheets()[0]; //alumnado&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var sheet1 = spd.getSheets()[3]; //alumnado&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var sheet4 = spd.getSheets()[4]; //horario&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var spreadsheetId = sheet.getSheetId();&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// configuration&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var apiToken = token;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var appUrl = &quot;https://script.google.com/macros/s/AKfycbxOiJZFHVs5ilhd6D-Yszbq-PIK2PMkfUurnVQOjd1YbowhcyOgkxlkk7oQTT_k9rpf7w/exec&quot;;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var apiUrl = &quot;https://api.telegram.org/bot&quot;+apiToken;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var command = {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&quot;/start&quot;: &quot;welcome to my bot&quot;,&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&quot;hi&quot;: &quot;hello&quot;,&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&quot;what is your name?&quot;: &quot;my name is the first bot&quot;,&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&quot;rubrica&quot;: sheet.getRange(1,1).getValue(),&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&quot;poner&quot;:&quot;&quot;,&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// set webhook&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function setWebhook(){&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var url = apiUrl + &quot;/setwebhook?url=&quot;+appUrl;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var res = UrlFetchApp.fetch(url).getContentText();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;Logger.log(res);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function doPost(e){&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var webhookData = JSON.parse(e.postData.contents);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var from = webhookData.message.from.id;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var text = webhookData.message.text;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var cid = webhookData.message.from.chat_id;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var chatid = webhookData.message.from.chat_id;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var com = text.split(&quot; &quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var command=text.substring(0,text.indexOf(&quot; &quot;));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var pon=text.substring(text.indexOf(&quot; &quot;)+1);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;com[0]=com[0].toUpperCase();&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet.getRange(1,1).setValue(com[0]);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (com[0]==&quot;PON&quot;)&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet.getRange(1,3).setValue(true);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (com[0]==&quot;CLEAR&quot;){&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet.getRange(1,1).setValue(&quot;borra&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet.getRange(1,3).setValue(false);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;pos=906;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sendText=&quot;&quot;;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var f=false;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (com[0]==&quot;HOR&quot;){&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;from=sheet1.getRange(1,4).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;from=1474116058;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var now = new Date();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var day =now.getUTCDay()+1;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var hora = now.getHours()-15;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var minutos = now.getMinutes();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;desfase=0;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (hora&amp;gt;=6 &amp;amp;&amp;amp; minutos&amp;gt;=45) desfase=30;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (minutos &amp;lt; 15+desfase ) hora=hora-1;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sendText=sheet4.getRange(1,1).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//sendText=sendText+hora+&quot; &quot;+day;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var url = apiUrl+&quot;/sendmessage?parse_mode=HTML&amp;amp;chat_id=&quot;+from+&quot;&amp;amp;text=&quot;+sendText;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var opts = {&quot;muteHttpExceptions&quot;: true}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;UrlFetchApp.fetch(url, opts).getContentText();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (com[0]==&quot;TEL&quot;) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;com[1]=com[1].toUpperCase();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet1.getRange(1,2).setValue(com[1]);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;pos=sheet4.getRange(1,1).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,7).setValue(com[1]);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,8).setValue(com[2]);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(1,1).setValue(pos+1);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//sheet1.getRange(1,3).setValue(from);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;for (i=6;i&amp;lt;10;i++) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//nom=sheet1.getRange(i,20).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//app1=sheet1.getRange(i,18).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//app2=sheet1.getRange(i,19).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//cadena=nom.substring(0,3)+app1.substring(0,3)+app2.substring(0,3);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Solo es para perder tiempo, es decir para pausar.&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;nombre=sheet1.getRange(i,1).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;i=906;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;from=sheet1.getRange(1,4).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;cadena=sheet1.getRange(i,2).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;nombre=sheet1.getRange(i,1).getValue()+' del grupo '+sheet1.getRange(i,17).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;tel1='Tlfno:'+sheet1.getRange(i,10).getValue()+' Urg:'+sheet1.getRange(i,11).getValue()+' Alum:'+sheet1.getRange(i,12).getValue()+' P.Tut('+sheet1.getRange(i,24).getValue()+'):'+sheet1.getRange(i,26).getValue()+' S.Tutor('+sheet1.getRange(i,32).getValue()+'):'+sheet1.getRange(i,34).getValue()+' Email1:'+sheet1.getRange(i,13).getValue()+' Email2:'+sheet1.getRange(i,14).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sendText=nombre+': '+tel1;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var url = apiUrl+&quot;/sendmessage?parse_mode=HTML&amp;amp;chat_id=&quot;+from+&quot;&amp;amp;text=&quot;+sendText;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;Logger.log(url);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var opts = {&quot;muteHttpExceptions&quot;: true}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;UrlFetchApp.fetch(url, opts).getContentText();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (com[0]==&quot;/DAT&quot;) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;pos=sheet4.getRange(1,1).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(i,2).setValue(com[1]);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(1,1).setValue(pos+1);&lt;/span&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="6"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="7"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="7"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Programaci%C3%B3n%20Google%20Sheets:Bot%20telegram%20google%20sheets"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="10">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Petición get añadir información"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="8">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_typeName"></string>
+           <unicode value="Text"></unicode>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="9">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="123_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="8"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var spd = SpreadsheetApp.getActiveSpreadsheet();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var appUrl = &quot;https://script.google.com/macros/s/AKfycbxOiJZFHVs5ilhd6D-Yszbq-PIK2PMkfUurnVQOjd1YbowhcyOgkxlkk7oQTT_k9rpf7w/exec&quot;;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var sheet = spd.getSheets()[0]; //alumnado&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var sheet1 = spd.getSheets()[3]; //alumnado&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var sheet4 = spd.getSheets()[4]; //horario&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var spreadsheetId = sheet.getSheetId();&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function modificarKML() {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// ID del archivo KML en Google Drive&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var fileId = '1nlPpZhBlLdKKx_ccZXmM1JTvb3RGGdQL'; // Reemplázalo con tu ID de archivo KML&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var file = DriveApp.getFileById(fileId);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Leer el contenido del archivo KML&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var content = file.getBlob().getDataAsString();&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Si deseas agregar una nueva coordenada o modificar alguna otra parte, puedes hacerlo aquí&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Ejemplo: agregar una nueva coordenada en &amp;lt;coordinates&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;newContent = content.replace('&amp;lt;coordinates&amp;gt;', '&amp;lt;coordinates&amp;gt;\n'+String(lon)+','+String(lat));&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Escribir el nuevo contenido en el archivo&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;file.setContent(newContent);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function calcularDistancia(lat1, lon1, lat2, lon2) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Convertir grados a radianes&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var lat1Rad = gradosARadianes(lat1);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var lon1Rad = gradosARadianes(lon1);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var lat2Rad = gradosARadianes(lat2);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var lon2Rad = gradosARadianes(lon2);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Radio de la Tierra en kilómetros&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var R = 6371;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Diferencias entre las coordenadas&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var dLat = lat2Rad - lat1Rad;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var dLon = lon2Rad - lon1Rad;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Fórmula de Haversine&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;Math.cos(lat1Rad) * Math.cos(lat2Rad) *&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;Math.sin(dLon / 2) * Math.sin(dLon / 2);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Distancia en kilómetros&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var distancia = R * c;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Retornar la distancia&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;return distancia;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function gradosARadianes(grados) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;return grados * (Math.PI / 180);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function doGet(e) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var data = e.parameter.data;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Resetea los datos de la ruta&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (sheet4.getRange(2,24).getValue().toUpperCase()===&quot;RESET&quot;)&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;{&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var fileId = '1lHzqlSQXNcEycGbwzncedmjslgmbVVpq'; //Fichero de drive del usuario cansat en la carpeta cansat2025&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var file = DriveApp.getFileById(fileId);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Leer el contenido del archivo Kval1ML&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var content = file.getBlob().getDataAsString();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;newContent = content.replace(/&amp;lt;coordinates&amp;gt;[\s\S]*?&amp;lt;\/coordinates&amp;gt;/g, '&amp;lt;coordinates&amp;gt;\n&amp;lt;/coordinates&amp;gt;');&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Escribir el nuevo contenido en el archivo&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;file.setContent(newContent);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var contenidoLimpio = contenido.replace(/&amp;lt;coordinates&amp;gt;[\s\S]*?&amp;lt;\/coordinates&amp;gt;/g, '');&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,24).setValue(&quot;DONE&quot;); &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (sheet4.getRange(1,31).getValue()!=&quot;REGISTRANDO&quot;)&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;return(ContentService.createTextOutput(&quot;Datos no agregados por decisión del usuario.&quot;));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.appendRow([data]); //Añade lo nuevo&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;pos=sheet4.getLastRow();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Escribe los datos que hay registrados&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var val1=sheet4.getRange(pos,1).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var nstr = val1.replace(&quot;.&quot;,&quot;,&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var separados = nstr.split(&quot;;&quot;).map(s =&amp;gt; s.trim()); &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var idold=sheet4.getRange(6,33).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(6,33).setValue(separados[16].substring(0,separados[16].length -3));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(6,34).setValue(idold);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (pos!=8) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var longold = sheet4.getRange(pos-1,10).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var latold = sheet4.getRange(pos-1,9).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var partes1 = separados[6].split(&quot;:&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var dos =sheet4.getRange(8,8).getDisplayValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var dosold =sheet4.getRange(pos-1,8).getDisplayValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var partes2 = dos.split(&quot;:&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var partes3 = dosold.split(&quot;:&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var fecha1 = new Date(0, 0, 0, parseInt(partes1[0]), parseInt(partes1[1]),parseInt(partes1[2]));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var fecha2 = new Date(0, 0, 0, parseInt(partes2[0]), parseInt(partes2[1]),parseInt(partes2[2]));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var fecha3 = new Date(0, 0, 0, parseInt(partes3[0]), parseInt(partes3[1]),parseInt(partes3[2]));&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Calcular diferencia en segundos de la hora en la primera fila de datos y la última&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var diferenciaMs = fecha1 - fecha2;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//sheet4.getRange(pos,2).setFormula('=SUBSTITUTE(A'+pos+';&quot;.&quot;;&quot;,&quot;)')&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var error=0;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;for (var i=1;i&amp;lt;16;i++) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;let valor = parseFloat(separados[i]);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos, i + 2).setValue(isNaN(valor) ? -1 : valor);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;/*if (error==1){&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(6,33).setBackground(&quot;red&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.deleteRow(pos);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;return ContentService.createTextOutput(&quot;Datos erróneos&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;else*/&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(6,33).setBackground(&quot;green&quot;);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;const ahora = new Date(); //Pone la hora del sistema&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,18).setValue(ahora); &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,18).setNumberFormat(&quot;hh:mm:ss&quot;); &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,2).setValue(sheet4.getRange(pos-1,2).getValue());&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,8).setValue(separados[6]);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var long = sheet4.getRange(pos,10).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var lat = sheet4.getRange(pos,9).getValue();&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (isNaN(lat) || lat==-1) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//sheet4.deleteRow(pos);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(6,33).setBackground(&quot;red&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,29).setBackground(&quot;Red&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,29).setValue(&quot;GPS LOST&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (!isNaN(lat) &amp;amp;&amp;amp; lat!=-1) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Si hay hora la pone y minutos desde la puesta en marcha&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//sheet4.getRange(1,22).setValue(separados[6]);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var num=diferenciaMs/60000;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//sheet4.getRange(1,25).setValue(num.toFixed(0)+&quot; min&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,29).setBackground('#00FF00');&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,29).setValue(&quot;GPS FOUND&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//Calcular diferencia en segundos entre lecturas del GPS&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var diferenciaGPS = fecha1 - fecha3; // milisegundos&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (diferenciaGPS!=0 &amp;amp;&amp;amp; pos!=8) { // Nueva lectura&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(4,31).setValue(diferenciaGPS/1000+&quot;s&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var distlateral= calcularDistancia(lat, long, latold, longold)*1000; //metros&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,19).setValue(distlateral);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var velocidadlateral=distlateral/((diferenciaGPS/1000.0));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,2).setValue(isNaN(velocidadlateral) ? -1 : velocidadlateral);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (velocidadlateral&amp;gt;10) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(5,27).setBackground(&quot;Red&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;else&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(5,27).setBackground(&quot;Green&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (sheet4.getRange(pos,4).getValue()&amp;gt;10) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(5,29).setBackground(&quot;Red&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;else&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(5,29).setBackground(&quot;Green&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;else{&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(4,31).setValue(0);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,19).setValue(0);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,2).setValue(0);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(5,29).setBackground(&quot;Green&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(5,27).setBackground(&quot;Green&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;else {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,29).setBackground(&quot;Red&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,29).setValue(&quot;GPS LOST&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (sheet4.getRange(pos,13).getValue()==1) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,27).setBackground(&quot;Red&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,27).setValue(&quot;RECORDING&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;else {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,27).setBackground(&quot;Green&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,27).setValue(&quot;OFF&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (sheet4.getRange(2,23).getValue().toUpperCase()===&quot;ON&quot;) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (!isNaN(lat) &amp;amp;&amp;amp; lat!=0) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// ID del archivo ruta.KML en Google Drive&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var fileId = '1lHzqlSQXNcEycGbwzncedmjslgmbVVpq';&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var file = DriveApp.getFileById(fileId);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Leer el contenido del archivo Kval1ML&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var content = file.getBlob().getDataAsString();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;newContent = content.replace('&amp;lt;coordinates&amp;gt;', '&amp;lt;coordinates&amp;gt;\n'+String(long)+','+String(lat));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Escribir el nuevo contenido en el archivo&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;file.setContent(newContent);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(1,33).setValue(pos-7);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;return ContentService.createTextOutput(&quot;Datos agregados con éxito.&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="9"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="10"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="3"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="10"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="2"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Programaci%C3%B3n%20Google%20Sheets:Petici%C3%B3n%20get%20a%C3%B1adir%20informaci%C3%B3n"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="14">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Petición post envío de imágenes"></unicode>
+        <string role="key" value="idevices"></string>
+        <list></list>
+        <string role="key" value="_id"></string>
+        <unicode value="3"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Programaci%C3%B3n%20Google%20Sheets:Petici%C3%B3n%20post%20env%C3%ADo%20de%20im%C3%A1genes"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="13">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Coctel de todo"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="11">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Todo en uno"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_typeName"></string>
+           <unicode value="Text"></unicode>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="12">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="121_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="11"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var token = 'tu token';&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var telegramUrl = 'https://api.telegram.org/bot' + token;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var spd = SpreadsheetApp.getActiveSpreadsheet();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var appUrl = &quot;https://script.google.com/macros/s/AKfycbxOiJZFHVs5ilhd6D-Yszbq-PIK2PMkfUurnVQOjd1YbowhcyOgkxlkk7oQTT_k9rpf7w/exec&quot;;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var sheet = spd.getSheets()[0]; //alumnado&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var sheet1 = spd.getSheets()[3]; //alumnado&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var sheet4 = spd.getSheets()[4]; //horario&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var spreadsheetId = sheet.getSheetId();&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// configuration&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var apiToken = token;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var apiUrl = &quot;https://api.telegram.org/bot&quot;+apiToken;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var command = {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&quot;/start&quot;: &quot;welcome to my bot&quot;,&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&quot;hi&quot;: &quot;hello&quot;,&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&quot;what is your name?&quot;: &quot;my name is the first bot&quot;,&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&quot;rubrica&quot;: sheet.getRange(1,1).getValue(),&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&quot;poner&quot;:&quot;&quot;,&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// set webhook&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function setWebhook(){&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var url = apiUrl + &quot;/setwebhook?url=&quot;+appUrl;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var res = UrlFetchApp.fetch(url).getContentText();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;Logger.log(res);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// handle webhook&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function doPost(e){&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var webhookData = JSON.parse(e.postData.contents);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var from = webhookData.message.from.id;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var text = webhookData.message.text;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var cid = webhookData.message.from.chat_id;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var chatid = webhookData.message.from.chat_id;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var com = text.split(&quot; &quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;Logger.log(com);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var command=text.substring(0,text.indexOf(&quot; &quot;));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var pon=text.substring(text.indexOf(&quot; &quot;)+1);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;com[0]=com[0].toUpperCase();&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet.getRange(1,1).setValue(com[0]);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (com[0]==&quot;PON&quot;)&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet.getRange(1,3).setValue(true);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (com[0]==&quot;CLEAR&quot;){&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet.getRange(1,1).setValue(&quot;borra&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet.getRange(1,3).setValue(false);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;pos=906;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sendText=&quot;&quot;;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var f=false;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (com[0]==&quot;HOR&quot;){&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;from=sheet1.getRange(1,4).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;from=1474116058;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var now = new Date();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var day =now.getUTCDay()+1;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var hora = now.getHours()-15;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var minutos = now.getMinutes();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;desfase=0;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (hora&amp;gt;=6 &amp;amp;&amp;amp; minutos&amp;gt;=45) desfase=30;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (minutos &amp;lt; 15+desfase ) hora=hora-1;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sendText=sheet4.getRange(1,1).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//sendText=sendText+hora+&quot; &quot;+day;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var url = apiUrl+&quot;/sendmessage?parse_mode=HTML&amp;amp;chat_id=&quot;+from+&quot;&amp;amp;text=&quot;+sendText;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var opts = {&quot;muteHttpExceptions&quot;: true}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;UrlFetchApp.fetch(url, opts).getContentText();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (com[0]==&quot;TEL&quot;) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;com[1]=com[1].toUpperCase();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet1.getRange(1,2).setValue(com[1]);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;pos=sheet4.getRange(1,1).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,7).setValue(com[1]);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,8).setValue(com[2]);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(1,1).setValue(pos+1);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//sheet1.getRange(1,3).setValue(from);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;for (i=6;i&amp;lt;10;i++) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//nom=sheet1.getRange(i,20).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//app1=sheet1.getRange(i,18).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//app2=sheet1.getRange(i,19).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//cadena=nom.substring(0,3)+app1.substring(0,3)+app2.substring(0,3);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Solo es para perder tiempo, es decir para pausar.&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;nombre=sheet1.getRange(i,1).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//if (!f) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;i=906;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;from=sheet1.getRange(1,4).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;cadena=sheet1.getRange(i,2).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// sendText=&quot;Not Found&quot;;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// if (com[1].indexOf(cadena.substring(0,8))!==-1) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;nombre=sheet1.getRange(i,1).getValue()+' del grupo '+sheet1.getRange(i,17).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;tel1='Tlfno:'+sheet1.getRange(i,10).getValue()+' Urg:'+sheet1.getRange(i,11).getValue()+' Alum:'+sheet1.getRange(i,12).getValue()+' P.Tut('+sheet1.getRange(i,24).getValue()+'):'+sheet1.getRange(i,26).getValue()+' S.Tutor('+sheet1.getRange(i,32).getValue()+'):'+sheet1.getRange(i,34).getValue()+' Email1:'+sheet1.getRange(i,13).getValue()+' Email2:'+sheet1.getRange(i,14).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sendText=nombre+': '+tel1;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//sendText=nombre;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// f=true;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//} &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var url = apiUrl+&quot;/sendmessage?parse_mode=HTML&amp;amp;chat_id=&quot;+from+&quot;&amp;amp;text=&quot;+sendText;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;Logger.log(url);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var opts = {&quot;muteHttpExceptions&quot;: true}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;UrlFetchApp.fetch(url, opts).getContentText();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (com[0]==&quot;/DAT&quot;) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;pos=sheet4.getRange(1,1).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(i,2).setValue(com[1]);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(1,1).setValue(pos+1);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var url = apiUrl+&quot;/sendmessage?parse_mode=HTML&amp;amp;chat_id=&quot;+from+&quot;&amp;amp;text=&quot;+sendText;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//Logger.log(url);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var opts = {&quot;muteHttpExceptions&quot;: true}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//UrlFetchApp.fetch(url, opts).getContentText();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function modificarKML() {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// ID del archivo KML en Google Drive&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var fileId = '1nlPpZhBlLdKKx_ccZXmM1JTvb3RGGdQL'; // Reemplázalo con tu ID de archivo KML&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var file = DriveApp.getFileById(fileId);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Leer el contenido del archivo KML&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var content = file.getBlob().getDataAsString();&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Si deseas agregar una nueva coordenada o modificar alguna otra parte, puedes hacerlo aquí&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Ejemplo: agregar una nueva coordenada en &amp;lt;coordinates&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;newContent = content.replace('&amp;lt;coordinates&amp;gt;', '&amp;lt;coordinates&amp;gt;\n'+String(lon)+','+String(lat));&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Escribir el nuevo contenido en el archivo&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;file.setContent(newContent);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function calcularDistancia(lat1, lon1, lat2, lon2) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Convertir grados a radianes&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var lat1Rad = gradosARadianes(lat1);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var lon1Rad = gradosARadianes(lon1);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var lat2Rad = gradosARadianes(lat2);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var lon2Rad = gradosARadianes(lon2);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Radio de la Tierra en kilómetros&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var R = 6371;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Diferencias entre las coordenadas&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var dLat = lat2Rad - lat1Rad;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var dLon = lon2Rad - lon1Rad;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Fórmula de Haversine&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;Math.cos(lat1Rad) * Math.cos(lat2Rad) *&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;Math.sin(dLon / 2) * Math.sin(dLon / 2);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Distancia en kilómetros&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var distancia = R * c;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Retornar la distancia&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;return distancia;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function gradosARadianes(grados) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;return grados * (Math.PI / 180);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function doGet(e) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var data = e.parameter.data;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Resetea los datos de la ruta&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (sheet4.getRange(2,24).getValue().toUpperCase()===&quot;RESET&quot;)&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;{&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var fileId = '1lHzqlSQXNcEycGbwzncedmjslgmbVVpq'; //Fichero de drive del usuario cansat en la carpeta cansat2025&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var file = DriveApp.getFileById(fileId);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Leer el contenido del archivo Kval1ML&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var content = file.getBlob().getDataAsString();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;newContent = content.replace(/&amp;lt;coordinates&amp;gt;[\s\S]*?&amp;lt;\/coordinates&amp;gt;/g, '&amp;lt;coordinates&amp;gt;\n&amp;lt;/coordinates&amp;gt;');&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Escribir el nuevo contenido en el archivo&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;file.setContent(newContent);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var contenidoLimpio = contenido.replace(/&amp;lt;coordinates&amp;gt;[\s\S]*?&amp;lt;\/coordinates&amp;gt;/g, '');&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,24).setValue(&quot;DONE&quot;); &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (sheet4.getRange(1,31).getValue()!=&quot;REGISTRANDO&quot;)&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;return(ContentService.createTextOutput(&quot;Datos no agregados por decisión del usuario.&quot;));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.appendRow([data]); //Añade lo nuevo&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;pos=sheet4.getLastRow();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Escribe los datos que hay registrados&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var val1=sheet4.getRange(pos,1).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var nstr = val1.replace(&quot;.&quot;,&quot;,&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var separados = nstr.split(&quot;;&quot;).map(s =&amp;gt; s.trim()); &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var idold=sheet4.getRange(6,33).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(6,33).setValue(separados[16].substring(0,separados[16].length -3));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(6,34).setValue(idold);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (pos!=8) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var longold = sheet4.getRange(pos-1,10).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var latold = sheet4.getRange(pos-1,9).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var partes1 = separados[6].split(&quot;:&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var dos =sheet4.getRange(8,8).getDisplayValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var dosold =sheet4.getRange(pos-1,8).getDisplayValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var partes2 = dos.split(&quot;:&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var partes3 = dosold.split(&quot;:&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var fecha1 = new Date(0, 0, 0, parseInt(partes1[0]), parseInt(partes1[1]),parseInt(partes1[2]));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var fecha2 = new Date(0, 0, 0, parseInt(partes2[0]), parseInt(partes2[1]),parseInt(partes2[2]));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var fecha3 = new Date(0, 0, 0, parseInt(partes3[0]), parseInt(partes3[1]),parseInt(partes3[2]));&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Calcular diferencia en segundos de la hora en la primera fila de datos y la última&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var diferenciaMs = fecha1 - fecha2;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//sheet4.getRange(pos,2).setFormula('=SUBSTITUTE(A'+pos+';&quot;.&quot;;&quot;,&quot;)')&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var error=0;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;for (var i=1;i&amp;lt;16;i++) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;let valor = parseFloat(separados[i]);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos, i + 2).setValue(isNaN(valor) ? -1 : valor);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;/*if (error==1){&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(6,33).setBackground(&quot;red&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.deleteRow(pos);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;return ContentService.createTextOutput(&quot;Datos erróneos&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;else*/&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(6,33).setBackground(&quot;green&quot;);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;const ahora = new Date(); //Pone la hora del sistema&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,18).setValue(ahora); &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,18).setNumberFormat(&quot;hh:mm:ss&quot;); &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,2).setValue(sheet4.getRange(pos-1,2).getValue());&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,8).setValue(separados[6]);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var long = sheet4.getRange(pos,10).getValue();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var lat = sheet4.getRange(pos,9).getValue();&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (isNaN(lat) || lat==-1) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//sheet4.deleteRow(pos);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(6,33).setBackground(&quot;red&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,29).setBackground(&quot;Red&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,29).setValue(&quot;GPS LOST&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (!isNaN(lat) &amp;amp;&amp;amp; lat!=-1) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Si hay hora la pone y minutos desde la puesta en marcha&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//sheet4.getRange(1,22).setValue(separados[6]);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//var num=diferenciaMs/60000;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//sheet4.getRange(1,25).setValue(num.toFixed(0)+&quot; min&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,29).setBackground('#00FF00');&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,29).setValue(&quot;GPS FOUND&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;//Calcular diferencia en segundos entre lecturas del GPS&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var diferenciaGPS = fecha1 - fecha3; // milisegundos&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (diferenciaGPS!=0 &amp;amp;&amp;amp; pos!=8) { // Nueva lectura&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(4,31).setValue(diferenciaGPS/1000+&quot;s&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var distlateral= calcularDistancia(lat, long, latold, longold)*1000; //metros&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,19).setValue(distlateral);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var velocidadlateral=distlateral/((diferenciaGPS/1000.0));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,2).setValue(isNaN(velocidadlateral) ? -1 : velocidadlateral);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (velocidadlateral&amp;gt;10) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(5,27).setBackground(&quot;Red&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;else&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(5,27).setBackground(&quot;Green&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (sheet4.getRange(pos,4).getValue()&amp;gt;10) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(5,29).setBackground(&quot;Red&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;else&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(5,29).setBackground(&quot;Green&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;else{&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(4,31).setValue(0);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,19).setValue(0);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(pos,2).setValue(0);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(5,29).setBackground(&quot;Green&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(5,27).setBackground(&quot;Green&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;else {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,29).setBackground(&quot;Red&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,29).setValue(&quot;GPS LOST&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (sheet4.getRange(pos,13).getValue()==1) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,27).setBackground(&quot;Red&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,27).setValue(&quot;RECORDING&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;else {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,27).setBackground(&quot;Green&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(2,27).setValue(&quot;OFF&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (sheet4.getRange(2,23).getValue().toUpperCase()===&quot;ON&quot;) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (!isNaN(lat) &amp;amp;&amp;amp; lat!=0) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// ID del archivo ruta.KML en Google Drive&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var fileId = '1lHzqlSQXNcEycGbwzncedmjslgmbVVpq';&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var file = DriveApp.getFileById(fileId);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Leer el contenido del archivo Kval1ML&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var content = file.getBlob().getDataAsString();&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;newContent = content.replace('&amp;lt;coordinates&amp;gt;', '&amp;lt;coordinates&amp;gt;\n'+String(long)+','+String(lat));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;// Escribir el nuevo contenido en el archivo&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;file.setContent(newContent);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sheet4.getRange(1,33).setValue(pos-7);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;return ContentService.createTextOutput(&quot;Datos agregados con éxito.&quot;);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function doGet2(e) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;return HtmlService.createHtmlOutput('Hola');&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function sendText(id, answer) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var url = telegramUrl + '/sendMessage?chat_id=' + id + '&amp;amp;text=' + answer;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;UrlFetchApp.fetch(url);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function sendTextWithButtons(id, answer, keyboard) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var data = {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;method: 'post',&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;payload: {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;method: 'sendMessage',&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;chat_id: String(id),&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;text: answer,&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;reply_markup: keyboard&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;UrlFetchApp.fetch(telegramUrl + '/', data);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;function doPost2(e) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var contents = JSON.parse(e.postData.contents);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;if (contents.message) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var text = contents.message.text;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var id = contents.message.chat.id;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var name = contents.message.chat.first_name;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var spreadsheet = SpreadsheetApp.openById(spreadsheetId).getSheetByName('Mensajes');&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;spreadsheet.appendRow([new Date(), id, name, text]);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;GmailApp.sendEmail('AQUÍ VA EL EMAIL QUE RECIBE EL CORREO', 'Bot de Telegram', JSON.stringify(contents));&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;switch (text) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;case '/start':&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var answer = 'Me has iniciado';&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sendText(id, answer);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;break;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;case '/info':&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var answer = 'Esto es un bot de prueba';&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sendText(id, answer);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;break;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;case '/enlaces':&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var keyboard = {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;'inline_keyboard': [&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;[{&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;'text': 'Youtube',&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;'url': 'https://youtube.com'&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;},{&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;'text': 'Google',&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;'url': 'https://google.com'&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}]&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;]&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;};&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sendTextWithButtons(id, 'Algunos enlaces', JSON.stringify(keyboard));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;break;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;case '/acciones':&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var keyboard = {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;'inline_keyboard': [&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;[{&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;'text': 'Acción 1',&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;'callback_data': '1'&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}],&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;[{&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;'text': 'Acción 2',&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;'callback_data': '2'&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}]&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;]&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;};&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sendTextWithButtons(id, 'Algunas acciones', JSON.stringify(keyboard));&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;break;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;default:&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var answer = 'No te he entendido';&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sendText(id, answer);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;break;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;} else if (contents.callback_query) {&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var id = contents.callback_query.message.chat.id;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var data = contents.callback_query.data;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;var answer = 'Has pulsado la acción número ' + data;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;sendText(id, answer);&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="12"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="13"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="1"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="13"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="4"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Programaci%C3%B3n%20Google%20Sheets:Coctel%20de%20todo"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="7"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="10"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="14"></reference>
+   <unicode role="key" value="4"></unicode>
+   <reference key="13"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_templateFile"></string>
+  <string value="Base"></string>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="3"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value="Francisco Abarca"></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value="Bot google sheets"></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value="es"></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value="Bot google sheets"></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="16"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <string value=""></string>
+  <string role="key" value="isLoading"></string>
+  <bool value="0"></bool>
+  <string role="key" value="license"></string>
+  <unicode value="creative commons: attribution - share alike 4.0"></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.descriptionSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="string"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.LangStringSub">
+           <dictionary>
+            <string role="key" value="language"></string>
+            <string value="es"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="Bot google sheets"></string>
+           </dictionary>
+          </instance>
+         </list>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="Bot google sheets"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <none></none>
+       </dictionary>
+      </instance>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <instance class="exe.engine.lom.lomsubs.lifeCycleSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2025-05-12T21:20:43.00+02:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Francisco Abarca EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="author"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="status"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+      <string role="key" value="version"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2025-05-12T20:29:40.00+02:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Francisco Abarca EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <none></none>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="yes"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.descriptionSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="string"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.LangStringSub">
+           <dictionary>
+            <string role="key" value="language"></string>
+            <string value="es"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="Bot google sheets"></string>
+           </dictionary>
+          </instance>
+         </list>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="Bot google sheets"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <none></none>
+       </dictionary>
+      </instance>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <instance class="exe.engine.lom.lomsubs.lifeCycleSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2025-05-12T21:20:43.00+02:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Francisco Abarca EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="author"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="status"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+      <string role="key" value="version"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2025-05-12T20:29:40.00+02:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Francisco Abarca EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="en"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Default"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="creative commons: attribution - share alike"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="release"></string>
+  <string value="2.8 Portable"></string>
+  <string role="key" value="resources"></string>
+  <dictionary></dictionary>
+  <string role="key" value="root"></string>
+  <reference key="3"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="INTEF"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>
